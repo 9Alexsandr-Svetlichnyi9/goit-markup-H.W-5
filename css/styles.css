@@ -1,0 +1,773 @@
+:root {
+  --main-color: #212121;
+  --action-color: #ffffff;
+  --brand-color: #2196f3;
+  --background-color: #2f303a;
+  --text-color: #757575;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+  background-color: #ffffff;
+  font-size: 14px;
+  line-height: 1.7;
+}
+/* logotips */
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1;
+  color: var(--brand-color);
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.logo-studios {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1;
+  color: var(--main-color);
+}
+/* logo-portfolio */
+.logo-portfolio {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1;
+  color: var(--brand-color);
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+
+/* footers */
+.main-footer {
+  position: absolute;
+  width: 2100px;
+  height: 125px;
+  left: 0px;
+
+  background: var(--background-color);
+}
+
+.logo-footer {
+  text-decoration: none;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  color: var(--brand-color);
+}
+.clas-footer-loc {
+  list-style: none;
+}
+.location {
+  list-style: none;
+  color: var(--action-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.location:hover {
+  color: var(--brand-color);
+}
+.location:focus {
+  color: var(--brand-color);
+}
+
+.clas-footer-tel {
+  list-style: none;
+}
+
+.footer-tel {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 1.7;
+  list-style: none;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.footer-tel:hover {
+  color: var(--brand-color);
+}
+.footer-tel:focus {
+  color: var(--brand-color);
+}
+
+.footer-studios {
+  color: var(--action-color);
+}
+.footer-email {
+  list-style: none;
+}
+.clas-footer-email {
+  font-family: "Roboto";
+
+  font-size: 14px;
+  line-height: 1.7;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.clas-footer-email:hover {
+  color: var(--brand-color);
+}
+.clas-footer-email:focus {
+  color: var(--brand-color);
+}
+
+/* background and button */
+
+.main-effect-bussines {
+  text-align: center;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.3;
+  background: var(--background-color);
+}
+.our-bussines {
+  color: var(--action-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.3;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.order-button {
+  background-color: var(--brand-color);
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  margin-top: 10px;
+  cursor: pointer;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  display: flex;
+  align-items: center;
+
+  letter-spacing: 0.06em;
+
+  color: var(--action-color);
+}
+.order-button:hover {
+  background: #188ce8;
+}
+.order-button:focus {
+  background: #188ce8;
+}
+/* links */
+.header-link {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.header-link-tel {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  justify-content: right;
+}
+.link-web {
+  color: var(--brand-color);
+}
+/* hover */
+.link-stydio {
+  font-weight: 500;
+  font-family: "Roboto";
+
+  line-height: 1.1;
+
+  letter-spacing: 0.03em;
+  color: var(--brand-color);
+  text-decoration: none;
+}
+
+.link-stydio:hover {
+  color: var(--brand-color);
+}
+.link-stydio:focus {
+  color: var(--brand-color);
+}
+.link-port {
+  color: var(--main-color);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+.link-port:hover {
+  color: var(--brand-color);
+}
+.link-port:focus {
+  color: var(--brand-color);
+}
+.link-cont {
+  color: var(--main-color);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+.link-cont:hover {
+  color: var(--brand-color);
+}
+.link-cont:focus {
+  color: var(--brand-color);
+}
+.link-mail {
+  color: var(--text-color);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+.link-mail:hover {
+  color: var(--brand-color);
+}
+.link-mail :focus {
+  color: var(--brand-color);
+}
+.link-tel {
+  color: #757575;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+.link-tel:hover {
+  color: var(--brand-color);
+}
+.link-tel:focus {
+  color: var(--brand-color);
+}
+
+/* texts */
+.working {
+  list-style: none;
+}
+.punkts {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+.exercise {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.plants {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+.conslt {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.modern-tech {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--main-color);
+}
+
+.real-exercise {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+
+  letter-spacing: 0.03em;
+
+  color: var(--text-color);
+}
+/* header doing before picture */
+.heaer-doing {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+/* picture-gadget */
+.gadgets {
+  list-style: none;
+}
+
+.gadgets-telephone {
+  list-style: none;
+}
+.gadgets-planhet {
+  list-style: none;
+}
+
+.attention-details {
+  color: var(--main-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: justify;
+
+  list-style: none;
+}
+.text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #757575;
+  list-style: none;
+}
+.container {
+  display: flex;
+}
+/* portfolio */
+
+.port-button {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  text-align: center;
+}
+.all-buttom {
+  list-style: none;
+  cursor: pointer;
+  text-align: center;
+  background: #f5f4fa;
+  border-radius: 4px;
+
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.all-buttom:hover {
+  color: var(--action-color);
+  background: var(--brand-color);
+}
+.all-buttom:focus {
+  color: var(--action-color);
+  background: var(--brand-color);
+}
+.web-buttom {
+  cursor: pointer;
+  font-style: normal;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--main-color);
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.web-buttom:hover {
+  color: var(--action-color);
+  background: var(--brand-color);
+}
+.web-buttom:focus {
+  color: var(--action-color);
+  background: var(--brand-color);
+}
+
+.applications {
+  cursor: pointer;
+  background: #f5f4fa;
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--main-color);
+}
+.applications:hover {
+  color: var(--action-color);
+  background: var(--brand-color);
+}
+.applications:focus {
+  color: var(--action-color);
+  background: var(--brand-color);
+}
+
+.port-design {
+  cursor: pointer;
+  background: #f5f4fa;
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--main-color);
+}
+.port-design:hover {
+  color: var(--action-color);
+  background: var(--brand-color);
+}
+.port-design:focus {
+  color: var(--action-color);
+  background: var(--brand-color);
+}
+
+.port-marketing {
+  cursor: pointer;
+  background: #f5f4fa;
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--main-color);
+}
+.port-marketing:hover {
+  color: var(--action-color);
+  background: var(--brand-color);
+}
+.port-marketing:focus {
+  color: var(--action-color);
+  background: var(--brand-color);
+}
+
+/* portfolio-images */
+.port-images {
+  list-style: none;
+}
+.technokryak {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+}
+.web-port {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.basket-star {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+}
+.port-design-basket {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.port-sea-food {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+}
+.sea-food {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.port-prime {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+}
+.prime-marketing {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.port-project-box {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+}
+.applications-boxes {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.port-borders {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+}
+.port-border-cite {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.port-book-limited {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+}
+.port-application-books {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.port-project-lab {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+}
+.port-marketing-lab {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.port-grow-business {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+}
+.port-aplications-business {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+/* footer-portfolio */
+
+/* team */
+.team {
+  background: #f5f4fa;
+}
+
+.our-team {
+  font-family: "Roboto";
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+.design {
+  list-style: none;
+}
+
+.man-designer {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1;
+
+  letter-spacing: 0.03em;
+
+  color: var(--main-color);
+}
+
+.Product-Designer {
+  font-family: "Roboto";
+
+  font-size: 16px;
+  line-height: 1.1;
+
+  letter-spacing: 0.03em;
+
+  color: var(--text-color);
+}
+
+.front {
+  list-style: none;
+}
+.woman-frontend {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+.Frontend-Developer {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.marketolog {
+  list-style: none;
+}
+.guys-marketolog {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+.Marketing {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.ui-design {
+  list-style: none;
+}
+.guys-designer {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+.ui-designer {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+/* visually hiden */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* hw-2 */
+.port-link {
+  list-style: none;
+}
+.port-com {
+  list-style: none;
+}
