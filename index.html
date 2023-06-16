@@ -26,7 +26,10 @@
   </head>
   <body>
     <header>
+      <div class="container-header">
       <nav>
+       
+
         <a href="./index.html" class="logo"
           >Web<span class="logo-studios">Studio</span></a
         >
@@ -36,8 +39,13 @@
           <li><a class="link-port" href="./portfolio.html">Портфоліо</a></li>
           <li><a class="link-cont" href="link">Контакти</a></li>
         </ul>
-        <p class="link-stydio-current"></p>
+       
+        
+       
+        
       </nav>
+       </div>
+
       <ul class="header-link-tel">
         <li>
           <a class="link-mail" href="mailto:info@devstudio.com">
@@ -48,6 +56,8 @@
           <a class="link-tel" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
+     
+      
     </header>
     <main>
       <section class="main-effect-bussines">
@@ -56,7 +66,7 @@
       </section>
 
       <section>
-        <div class="container">
+        <div class="container-hidden">
           <h2 hidden>Наші переваги</h2>
           <ul class="working">
             <li>
@@ -89,75 +99,84 @@
           </ul>
         </div>
       </section>
-      <section>
-        <h2 class="heaer-doing">Чим ми займаємося</h2>
-        <ul>
-          <li class="gadgets">
-            <img
-              src="./images/computer_jpg.jpg"
-              alt="Людина працює за комп'ютером"
-              width="370"
-            />
-          </li>
-          <li class="gadgets-telephone">
-            <img
-              src="./images/telephone.svg"
-              alt="Людина набирає на телефоні"
-              width="370"
-            />
-          </li>
-          <li class="gadgets-planhet">
-            <img
-              src="./images/planhet_jpg.jpg"
-              alt="Людина набирає на планшеті "
-              width="370"
-            />
-          </li>
-        </ul>
-      </section>
+     
+        <section class="section-header-doing">
+          <div class="container">
+            <h2 class="heaer-doing">Чим ми займаємося</h2>
+            <ul class="gadgets-pictures">
+              <li class="gadgets">
+                <img
+                  src="./images/computer_jpg.jpg"
+                  alt="Людина працює за комп'ютером"
+                  width="370"
+                />
+              </li>
+              <li class="gadgets-telephone">
+                <img
+                  src="./images/telephone.svg"
+                  alt="Людина набирає на телефоні"
+                  width="370"
+                />
+              </li>
+              <li class="gadgets-planhet">
+                <img
+                  src="./images/planhet_jpg.jpg"
+                  alt="Людина набирає на планшеті "
+                  width="370"
+                />
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
 
-      <section class="team">
-        <h2 class="our-team">Наша команда</h2>
-        <ul>
-          <li class="design">
-            <img
-              src="./images/product-designer.jpg"
-              alt="дизайнер"
-              width="270"
-            />
-            <h3 class="man-designer"><span>Ігор Дем'яненко</span></h3>
-            <p class="Product-Designer">Product Designer</p>
-          </li>
+     
+        <section class="team">
+          <div class="container-team">
+          <h2 class="our-team">Наша команда</h2>
+          <ul class="our-team-photos">
+            <li class="design">
+              <img
+                src="./images/product-designer.jpg"
+                alt="дизайнер"
+                width="270"
+              />
+              <h3 class="man-designer"><span>Ігор Дем'яненко</span></h3>
+              <p class="Product-Designer">Product Designer</p>
+            </li>
 
-          <li class="front">
-            <img
-              src="./images/front.jpg"
-              alt="Фронт єнд розробник"
-              width="270"
-            />
-            <h3 class="woman-frontend"><span>Ольга Рєпіна</span></h3>
-            <p class="Frontend-Developer">Frontend Developer</p>
-          </li>
+            <li class="front">
+              <img
+                src="./images/front.jpg"
+                alt="Фронт єнд розробник"
+                width="270"
+              />
+              <h3 class="woman-frontend"><span>Ольга Рєпіна</span></h3>
+              <p class="Frontend-Developer">Frontend Developer</p>
+            </li>
 
-          <li class="marketolog">
-            <img
-              src="./images/marketing.jpg.jpg"
-              alt="маркетолог"
-              width="270"
-            />
-            <h3 class="guys-marketolog"><span>Микола Тарасов</span></h3>
-            <p class="Marketing">Marketing</p>
-          </li>
-          <li class="ui-design">
-            <img src="./images/UI-design.jpg" alt="UI дизайнер" width="270" />
-            <h3 class="guys-designer"><span>Михайло Єрмаков</span></h3>
-            <p class="ui-designer">UI Designer</p>
-          </li>
-        </ul>
-      </section>
+            <li class="marketolog">
+              <img
+                src="./images/marketing.jpg.jpg"
+                alt="маркетолог"
+                width="270"
+              />
+              <h3 class="guys-marketolog"><span>Микола Тарасов</span></h3>
+              <p class="Marketing">Marketing</p>
+            </li>
+            <li class="ui-design">
+              <img src="./images/UI-design.jpg" alt="UI дизайнер" width="270" />
+              <h3 class="guys-designer"><span>Михайло Єрмаков</span></h3>
+              <p class="ui-designer">UI Designer</p>
+            </li>
+          </ul>
+</div>
+        </section>
+     
     </main>
 
     <footer class="main-footer">
+      <div class="container-footer">
       <a href="/" class="logo-footer"
         >Web<span class="footer-studios">Studio</span></a
       >
@@ -186,6 +205,7 @@
           </li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>

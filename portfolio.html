@@ -10,6 +10,14 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--верстка второй страницы -->
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Portfolio</title>
   </head>
@@ -39,6 +47,7 @@
     </header>
     <main>
       <section>
+        <div class="container-portfolio">
         <h1 class="visually-hidden">Portfolio</h1>
         <ul class="port-button">
           <!--первая ссілка чисто проверка, работает ли это чисто для себя -->
@@ -50,66 +59,103 @@
             <button type="button" class="port-marketing">Маркетинг</button></a>
           </li>
         </ul>
+       
+        <style>
+          a{
+            text-decoration: none;
+          }
+        </style>
+        
 
-        <ul class="port-images">
+  
+        <ul class="images-list">
           <li>
-            <img src="./images/techno.jpg.jpg" alt="techno-kryak" width="370" />
+            <a href="https://www.ukr.net/">
             <h2 class="technokryak"><span>Технокряк</span></h2>
+            <img src="./images/techno.jpg.jpg" alt="techno-kryak" width="370" />
             <p class="web-port">Веб-сайт</p>
+            </a>
           </li>
           <li>
+            <a href="#">
+              <h2 class="basket-star">
+              <span>Постер New Orlean vs Golden Star</span>
+            </h2>
             <img
               src="./images/basket.jpg"
               alt="basketball-design"
               width="370"
             />
-            <h2 class="basket-star">
-              <span>Постер New Orlean vs Golden Star</span>
-            </h2>
-            <p class="port-design-basket">Дизайн</p>
+           <p class="port-design-basket">Дизайн</p>
+            </a>
           </li>
+
           <li>
+            <a href="https://translate.google.com/?hl=ru">
+               <h2 class="port-sea-food"><span>Ресторан Seafood</span></h2>
             <img src="./images/shark.jpg" alt="rest-seafood" width="370" />
-            <h2 class="port-sea-food"><span>Ресторан Seafood</span></h2>
-            <p class="sea-food">Додаток</p>
-          </li>
+           <p class="sea-food">Додаток</p>
+            </a>
+  </li>
+
           <li>
+            <a href="#">
+             <h2 class="port-prime"><span>Проєкт Prime</span></h2>
             <img src="./images/pods.jpg" alt="Проєкт Prime" width="370" />
-            <h2 class="port-prime"><span>Проєкт Prime</span></h2>
+           
             <p class="prime-marketing">Маркетинг</p>
+            </a>
           </li>
+
           <li>
+            <a href="#">
+             <h2 class="port-project-box"><span>Проєкт Boxes</span></h2>
             <img src="./images/box.jpg" alt="project-boxes" width="370" />
-            <h2 class="port-project-box"><span>Проєкт Boxes</span></h2>
+           
             <p class="applications-boxes">Додаток</p>
+            </a>
           </li>
+
           <li>
-            <img src="./images/monitor.jpg" alt="web-sites" width="370" />
+            <a href="#">
             <h2 class="port-borders"><span>has no Borders</span></h2>
+            <img src="./images/monitor.jpg" alt="web-sites" width="370" />
+            
             <p class="port-border-cite">Веб-сайт</p>
+            </a>
           </li>
+
           <li>
-            <img src="./images/book.jpg" alt="Limited Edition" width="370" />
-            <h2 class="port-book-limited">
+            <a href="#">
+             <h2 class="port-book-limited">
               <span>Видання Limited Edition</span>
             </h2>
-            <p class="port-application-books">Додаток</p>
+            <img src="./images/book.jpg" alt="Limited Edition" width="370" />
+           <p class="port-application-books">Додаток</p>
+            </a>
           </li>
+
           <li>
-            <img src="./images/labeltag.jpg" alt="project-lab" width="370" />
+            <a href="#">
             <h2 class="port-project-lab"><span>Проєкт LAB</span></h2>
-            <p class="port-marketing-lab">Маркетинг</p>
+            <img src="./images/labeltag.jpg" alt="project-lab" width="370" />
+             <p class="port-marketing-lab">Маркетинг</p>
+            </a>
           </li>
+
           <li>
+            <a href="#">
+            <h2 class="port-grow-business"><span>Business</span></h2>
             <img
               src="./images/growing.jpg.jpg"
               alt="Growing Business"
               width="370"
             />
-            <h2 class="port-grow-business"><span>Business</span></h2>
             <p class="port-aplications-business">Додаток</p>
+            </a>
           </li>
         </ul>
+        </div>
       </section>
     </main>
 
