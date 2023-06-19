@@ -24,8 +24,6 @@ body {
   color: var(--brand-color);
   text-decoration: none;
   letter-spacing: 0.03em;
-
-  margin-left: 215px;
 }
 
 .logo-studios {
@@ -186,9 +184,6 @@ body {
   list-style: none;
   display: flex;
   gap: 50px;
-
-  padding-bottom: 32px;
-  padding-left: 453px;
 }
 
 .header-link-tel {
@@ -196,8 +191,8 @@ body {
   display: flex;
   gap: 50px;
   justify-content: right;
-  margin-top: 32px;
-  margin-bottom: 32px;
+
+  margin-left: auto;
 }
 .link-web {
   color: var(--brand-color);
@@ -363,6 +358,12 @@ body {
   margin: 0 auto;
   width: 1200px;
   padding: 0 15px;
+  display: flex;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  align-items: center;
 }
 .container-footer {
   margin: 0 auto;
