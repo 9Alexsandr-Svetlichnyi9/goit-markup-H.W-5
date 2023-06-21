@@ -184,6 +184,8 @@ body {
   list-style: none;
   display: flex;
   gap: 50px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .header-link-tel {
@@ -207,6 +209,8 @@ body {
   letter-spacing: 0.03em;
   color: var(--brand-color);
   text-decoration: none;
+
+  margin-right: 93px;
 }
 .link-stydio.current {
   color: var(--main-color);
@@ -224,6 +228,7 @@ body {
   text-decoration: none;
   letter-spacing: 0.02em;
   font-weight: 500;
+  margin-bottom: 32px;
 }
 .link-port:hover {
   color: var(--brand-color);
@@ -241,6 +246,7 @@ body {
   letter-spacing: 0.02em;
   font-weight: 500;
 }
+
 .link-cont:hover {
   color: var(--brand-color);
 }
@@ -252,7 +258,6 @@ body {
   text-decoration: none;
   letter-spacing: 0.02em;
   font-weight: 500;
-  margin-top: 32px;
 }
 .link-mail:hover {
   color: var(--brand-color);
@@ -265,9 +270,7 @@ body {
   text-decoration: none;
   letter-spacing: 0.02em;
   font-weight: 500;
-  margin-right: 215px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  left: 1263px;
 }
 .link-tel:hover {
   color: var(--brand-color);
@@ -350,16 +353,13 @@ body {
 /* header doing before picture */
 /*container */
 
-.container {
-  width: 100%;
-}
-
 .container-header {
   margin: 0 auto;
   width: 1200px;
   padding: 0 15px;
   display: flex;
   align-items: center;
+  margin-right: 300px;
 }
 .nav {
   display: flex;
@@ -371,27 +371,12 @@ body {
   padding: 0 15px;
 }
 
-.item {
-  display: inline-block;
-  width: 33.33%; /* Ширина каждого элемента в ряду */
-  box-sizing: border-box;
-  text-align: center;
-  padding: 10px;
-}
-
-.item img {
-  max-width: 100%;
-  height: auto;
-}
-
-.item p {
-  margin-top: 5px;
-}
-
 .container-portfolio {
   margin: 0 auto;
   width: 1200px;
   padding: 0 15px;
+
+  text-align: center;
 }
 
 .container-team {
@@ -469,9 +454,9 @@ body {
   list-style: none;
   cursor: pointer;
   display: flex;
-  text-align: center;
+
   text-decoration: none;
-  margin-left: 150px;
+  margin-left: auto;
   margin-bottom: 94px;
 }
 .all-buttom {
@@ -594,8 +579,7 @@ body {
 }
 
 /* portfolio-images */
-.container-img-portfolio {
-}
+
 .images-list {
   list-style-type: none;
   display: flex;
