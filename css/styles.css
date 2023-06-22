@@ -46,11 +46,6 @@ body {
 
 /* footers */
 .main-footer {
-  position: absolute;
-  width: 2100px;
-  height: 125px;
-  left: 0px;
-
   background: var(--background-color);
 }
 
@@ -64,7 +59,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--brand-color);
   margin-left: 50px;
+  margin-bottom: 28px;
 }
+
 .clas-footer-loc {
   list-style: none;
 }
@@ -111,7 +108,6 @@ body {
 
 .footer-studios {
   color: var(--action-color);
-  margin-bottom: 60px;
 }
 .footer-email {
   list-style: none;
@@ -209,8 +205,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--brand-color);
   text-decoration: none;
-
-  margin-right: 93px;
 }
 .link-stydio.current {
   color: var(--main-color);
@@ -245,6 +239,8 @@ body {
   text-decoration: none;
   letter-spacing: 0.02em;
   font-weight: 500;
+
+  margin-bottom: 32px;
 }
 
 .link-cont:hover {
@@ -377,6 +373,7 @@ body {
   padding: 0 15px;
 
   text-align: center;
+  margin-top: 32px;
 }
 
 .container-team {
@@ -454,10 +451,12 @@ body {
   list-style: none;
   cursor: pointer;
   display: flex;
+  text-align: center;
 
   text-decoration: none;
-  margin-left: auto;
-  margin-bottom: 94px;
+  margin-bottom: 32px;
+  margin-left: 350px;
+  gap: 8px;
 }
 .all-buttom {
   list-style: none;
@@ -585,21 +584,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-
-.image-list li {
-  width: 30%;
-  margin-bottom: 20px;
-  box-sizing: border-box;
-}
-
-.image-list img {
-  width: 100%;
-  height: auto;
-}
-
-.image-list p {
-  margin-top: 10px;
+  margin-bottom: 94px;
 }
 
 .technokryak {
@@ -784,7 +769,8 @@ body {
 
 .our-team {
   font-family: "Roboto";
-  margin-bottom: 94px;
+  margin-top: 94px;
+  margin-bottom: 50px;
 
   font-weight: 700;
   font-size: 36px;
