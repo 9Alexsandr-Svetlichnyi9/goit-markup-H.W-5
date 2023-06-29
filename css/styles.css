@@ -24,6 +24,7 @@ body {
   color: var(--brand-color);
   text-decoration: none;
   letter-spacing: 0.03em;
+  margin-right: 93px;
 }
 
 .logo-studios {
@@ -148,7 +149,9 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+
+  margin-bottom: 0;
 }
 
 .order-button {
@@ -180,8 +183,9 @@ body {
   list-style: none;
   display: flex;
   gap: 50px;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 .header-link-tel {
@@ -191,6 +195,9 @@ body {
   justify-content: right;
 
   margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
 }
 .link-web {
   color: var(--brand-color);
@@ -205,6 +212,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--brand-color);
   text-decoration: none;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .link-stydio.current {
   color: var(--main-color);
@@ -223,6 +233,9 @@ body {
   letter-spacing: 0.02em;
   font-weight: 500;
   margin-bottom: 32px;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .link-port:hover {
   color: var(--brand-color);
@@ -240,7 +253,8 @@ body {
   letter-spacing: 0.02em;
   font-weight: 500;
 
-  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .link-cont:hover {
@@ -254,6 +268,9 @@ body {
   text-decoration: none;
   letter-spacing: 0.02em;
   font-weight: 500;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .link-mail:hover {
   color: var(--brand-color);
@@ -266,7 +283,8 @@ body {
   text-decoration: none;
   letter-spacing: 0.02em;
   font-weight: 500;
-  left: 1263px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .link-tel:hover {
   color: var(--brand-color);
@@ -276,10 +294,21 @@ body {
 }
 
 /* texts */
+.hidden {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .working {
   list-style: none;
   display: flex;
   gap: 30px;
+
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.working li {
+  width: 270px;
 }
 .punkts {
   font-family: "Roboto";
@@ -289,9 +318,11 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-color);
-
-  margin-top: 94px;
-  margin-bottom: 10px;
+  margin: 0;
+  padding: 0;
+}
+.punkts-li {
+  width: 270px;
 }
 .exercise {
   font-family: "Roboto";
@@ -309,9 +340,11 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-color);
-
-  margin-top: 94px;
-  margin-bottom: 10px;
+  margin: 0;
+  padding: 0;
+}
+.plants-li {
+  width: 500px;
 }
 .conslt {
   font-family: "Roboto";
@@ -331,9 +364,8 @@ body {
   text-transform: uppercase;
 
   color: var(--main-color);
-
-  margin-top: 94px;
-  margin-bottom: 10px;
+  margin: 0;
+  padding: 0;
 }
 
 .real-exercise {
@@ -355,7 +387,8 @@ body {
   padding: 0 15px;
   display: flex;
   align-items: center;
-  margin-right: 300px;
+
+  border: 1px solid #eeeeee;
 }
 .nav {
   display: flex;
@@ -375,6 +408,11 @@ body {
   text-align: center;
   margin-top: 32px;
 }
+.container-business {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
 
 .container-team {
   margin: 0 auto;
@@ -389,8 +427,7 @@ body {
 
 .section-header-doing {
   display: flex;
-  margin-top: 118px;
-  margin-bottom: 50px;
+  gap: 30px;
 }
 .heaer-doing {
   font-family: "Roboto";
@@ -401,8 +438,8 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-color);
 
-  margin-bottom: 94px;
-  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 0;
 }
 /* picture-gadget */
 
@@ -423,10 +460,12 @@ body {
   list-style: none;
 }
 
+.attention-details-li {
+  width: 270px;
+}
+
 .attention-details {
   color: var(--main-color);
-  margin-top: 94px;
-  margin-bottom: 10px;
 
   font-weight: 700;
   font-size: 14px;
@@ -436,6 +475,8 @@ body {
   text-align: justify;
 
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .text {
   font-size: 14px;
@@ -769,8 +810,6 @@ body {
 
 .our-team {
   font-family: "Roboto";
-  margin-top: 94px;
-  margin-bottom: 50px;
 
   font-weight: 700;
   font-size: 36px;
@@ -778,10 +817,15 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color);
+
+  padding-bottom: 50px;
+  padding-top: 94px;
+  margin: 0;
 }
 
 .design {
   list-style: none;
+  width: 270px;
 }
 
 .man-designer {
