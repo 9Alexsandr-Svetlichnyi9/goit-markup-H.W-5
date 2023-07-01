@@ -59,12 +59,14 @@ body {
   line-height: 1.1;
   letter-spacing: 0.03em;
   color: var(--brand-color);
-  margin-left: 50px;
-  margin-bottom: 28px;
+  margin-right: 93px;
+  padding: 0;
+  margin: 0;
 }
-
 .clas-footer-loc {
   list-style: none;
+  margin-top: 12px;
+  padding: 0;
 }
 .location {
   list-style: none;
@@ -86,7 +88,8 @@ body {
 
 .clas-footer-tel {
   list-style: none;
-  margin-top: 12px;
+  margin: 0;
+  padding: 0;
 }
 
 .footer-tel {
@@ -124,6 +127,8 @@ body {
 
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  padding: 0;
+  margin: 0;
 }
 .clas-footer-email:hover {
   color: var(--brand-color);
@@ -149,9 +154,9 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-bottom: 30px;
 
-  margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 .order-button {
@@ -215,6 +220,8 @@ body {
 
   padding-top: 32px;
   padding-bottom: 32px;
+
+  display: block;
 }
 .link-stydio.current {
   color: var(--main-color);
@@ -232,10 +239,11 @@ body {
   text-decoration: none;
   letter-spacing: 0.02em;
   font-weight: 500;
-  margin-bottom: 32px;
 
   padding-top: 32px;
   padding-bottom: 32px;
+
+  display: block;
 }
 .link-port:hover {
   color: var(--brand-color);
@@ -255,6 +263,7 @@ body {
 
   padding-top: 32px;
   padding-bottom: 32px;
+  display: block;
 }
 
 .link-cont:hover {
@@ -380,15 +389,15 @@ body {
 }
 /* header doing before picture */
 /*container */
-
+header {
+  border-bottom: 1px solid #ececec;
+}
 .container-header {
   margin: 0 auto;
   width: 1200px;
   padding: 0 15px;
   display: flex;
   align-items: center;
-
-  border: 1px solid #eeeeee;
 }
 .nav {
   display: flex;
@@ -497,6 +506,7 @@ body {
   text-decoration: none;
   margin-bottom: 32px;
   margin-left: 350px;
+  margin-top: 94px;
   gap: 8px;
 }
 .all-buttom {
@@ -625,7 +635,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 94px;
+  padding: 0;
+  margin: 0;
 }
 
 .technokryak {
@@ -636,7 +647,8 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-color);
-  margin-bottom: 20px;
+  padding: 0;
+  margin: 0;
 }
 .web-port {
   font-family: "Roboto";
@@ -646,6 +658,8 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-color);
   text-decoration: none;
+  padding: 30px 0;
+  margin: 0;
 }
 
 .basket-star {
@@ -656,6 +670,8 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-color);
+  padding: 0;
+  margin: 0;
 }
 .port-design-basket {
   font-family: "Roboto";
@@ -664,6 +680,8 @@ body {
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  padding: 30px 0;
+  margin: 0;
 }
 
 .port-sea-food {
@@ -674,6 +692,8 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-color);
+  padding: 0;
+  margin: 0;
 }
 .sea-food {
   font-family: "Roboto";
@@ -682,6 +702,8 @@ body {
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  padding: 30px 0;
+  margin: 0;
 }
 
 .port-prime {
@@ -692,6 +714,8 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-color);
+  padding: 0;
+  margin: 0;
 }
 .prime-marketing {
   font-family: "Roboto";
@@ -700,6 +724,8 @@ body {
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  padding: 30px 0;
+  margin: 0;
 }
 
 .port-project-box {
@@ -710,6 +736,8 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-color);
+  padding: 0;
+  margin: 0;
 }
 .applications-boxes {
   font-family: "Roboto";
@@ -718,6 +746,8 @@ body {
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  padding: 30px 0;
+  margin: 0;
 }
 
 .port-borders {
@@ -728,6 +758,8 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-color);
+  padding: 0;
+  margin: 0;
 }
 .port-border-cite {
   font-family: "Roboto";
@@ -736,6 +768,8 @@ body {
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  padding: 30px 0;
+  margin: 0;
 }
 
 .port-book-limited {
@@ -746,6 +780,8 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-color);
+  padding: 0;
+  margin: 0;
 }
 .port-application-books {
   font-family: "Roboto";
@@ -754,6 +790,8 @@ body {
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  padding: 30px 0;
+  margin: 0;
 }
 
 .port-project-lab {
@@ -764,6 +802,8 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-color);
+  padding: 0;
+  margin: 0;
 }
 .port-marketing-lab {
   font-family: "Roboto";
@@ -772,6 +812,8 @@ body {
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  padding: 30px 0;
+  margin: 0;
 }
 
 .port-grow-business {
@@ -782,6 +824,8 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-color);
+  padding: 0;
+  margin: 0;
 }
 .port-aplications-business {
   font-family: "Roboto";
@@ -790,6 +834,8 @@ body {
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  padding: 30px 0;
+  margin: 0;
 }
 /* footer-portfolio */
 
