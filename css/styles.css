@@ -145,6 +145,8 @@ body {
   font-size: 44px;
   line-height: 1.3;
   background: var(--background-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .our-bussines {
   color: var(--action-color);
@@ -155,6 +157,9 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
+  max-width: 696px;
+  margin: 0 auto;
+
   margin-top: 0;
   margin-bottom: 30px;
 }
@@ -164,7 +169,7 @@ body {
   text-align: center;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  margin-top: 10px;
+  margin: 0;
   cursor: pointer;
   font-family: "Roboto";
   font-weight: 700;
@@ -339,6 +344,8 @@ body {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  margin-bottom: 0;
+  margin: 10px;
 }
 
 .plants {
@@ -362,6 +369,8 @@ body {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  margin-bottom: 0;
+  margin: 10px;
 }
 
 .modern-tech {
@@ -386,11 +395,18 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--text-color);
+  margin-bottom: 0;
+  margin: 10px;
 }
 /* header doing before picture */
 /*container */
 header {
   border-bottom: 1px solid #ececec;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto; /* Центрує контейнер */
+  padding: 0 15px; /* Горизонтальні паддинги */
 }
 .container-header {
   margin: 0 auto;
@@ -437,9 +453,9 @@ header {
 .section-header-doing {
   display: flex;
   gap: 30px;
+  padding-bottom: 94px;
 }
 .heaer-doing {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
@@ -448,6 +464,7 @@ header {
   color: var(--main-color);
 
   margin-bottom: 50px;
+  margin-top: 0;
   padding: 0;
 }
 /* picture-gadget */
@@ -455,7 +472,8 @@ header {
 .gadgets-pictures {
   display: flex;
   gap: 30px;
-  margin-bottom: 94px;
+  margin: 0;
+  padding: 0;
 }
 
 .gadgets {
@@ -493,6 +511,8 @@ header {
   letter-spacing: 0.03em;
   color: var(--text-color);
   list-style: none;
+  margin-bottom: 0;
+  margin: 10px;
 }
 
 /* portfolio */
@@ -629,6 +649,9 @@ header {
 }
 
 /* portfolio-images */
+img {
+  display: block;
+}
 
 .images-list {
   list-style-type: none;
@@ -637,6 +660,10 @@ header {
   justify-content: space-between;
   padding: 0;
   margin: 0;
+}
+.borders {
+  border: 1px solid #eeeeee;
+  margin-bottom: 30px;
 }
 
 .technokryak {
@@ -649,6 +676,8 @@ header {
   color: var(--main-color);
   padding: 0;
   margin: 0;
+  margin-left: 24px;
+  margin-top: 20px;
 }
 .web-port {
   font-family: "Roboto";
@@ -660,6 +689,7 @@ header {
   text-decoration: none;
   padding: 30px 0;
   margin: 0;
+  margin-left: 24px;
 }
 
 .basket-star {
@@ -672,6 +702,8 @@ header {
   color: var(--main-color);
   padding: 0;
   margin: 0;
+  margin-top: 20px;
+  margin-left: 24px;
 }
 .port-design-basket {
   font-family: "Roboto";
@@ -682,6 +714,7 @@ header {
   color: var(--text-color);
   padding: 30px 0;
   margin: 0;
+  margin-left: 24px;
 }
 
 .port-sea-food {
@@ -694,6 +727,8 @@ header {
   color: var(--main-color);
   padding: 0;
   margin: 0;
+  margin-left: 24px;
+  margin-top: 20px;
 }
 .sea-food {
   font-family: "Roboto";
@@ -704,6 +739,7 @@ header {
   color: var(--text-color);
   padding: 30px 0;
   margin: 0;
+  margin-left: 24px;
 }
 
 .port-prime {
@@ -716,6 +752,8 @@ header {
   color: var(--main-color);
   padding: 0;
   margin: 0;
+  margin-left: 24px;
+  margin-top: 20px;
 }
 .prime-marketing {
   font-family: "Roboto";
@@ -726,6 +764,7 @@ header {
   color: var(--text-color);
   padding: 30px 0;
   margin: 0;
+  margin-left: 24px;
 }
 
 .port-project-box {
@@ -738,6 +777,8 @@ header {
   color: var(--main-color);
   padding: 0;
   margin: 0;
+  margin-left: 24px;
+  margin-top: 20px;
 }
 .applications-boxes {
   font-family: "Roboto";
@@ -748,6 +789,7 @@ header {
   color: var(--text-color);
   padding: 30px 0;
   margin: 0;
+  margin-left: 24px;
 }
 
 .port-borders {
@@ -760,6 +802,8 @@ header {
   color: var(--main-color);
   padding: 0;
   margin: 0;
+  margin-left: 24px;
+  margin-top: 20px;
 }
 .port-border-cite {
   font-family: "Roboto";
@@ -770,6 +814,7 @@ header {
   color: var(--text-color);
   padding: 30px 0;
   margin: 0;
+  margin-left: 24px;
 }
 
 .port-book-limited {
@@ -782,6 +827,8 @@ header {
   color: var(--main-color);
   padding: 0;
   margin: 0;
+  margin-left: 24px;
+  margin-top: 20px;
 }
 .port-application-books {
   font-family: "Roboto";
@@ -792,6 +839,7 @@ header {
   color: var(--text-color);
   padding: 30px 0;
   margin: 0;
+  margin-left: 24px;
 }
 
 .port-project-lab {
@@ -804,6 +852,8 @@ header {
   color: var(--main-color);
   padding: 0;
   margin: 0;
+  margin-left: 24px;
+  margin-top: 20px;
 }
 .port-marketing-lab {
   font-family: "Roboto";
@@ -814,6 +864,7 @@ header {
   color: var(--text-color);
   padding: 30px 0;
   margin: 0;
+  margin-left: 24px;
 }
 
 .port-grow-business {
@@ -826,6 +877,8 @@ header {
   color: var(--main-color);
   padding: 0;
   margin: 0;
+  margin-left: 24px;
+  margin-top: 20px;
 }
 .port-aplications-business {
   font-family: "Roboto";
@@ -836,22 +889,22 @@ header {
   color: var(--text-color);
   padding: 30px 0;
   margin: 0;
+  margin-left: 24px;
 }
 /* footer-portfolio */
 
 /* team */
-.container {
-  max-width: 1200px;
-  margin: 0 auto; /* Центрує контейнер */
-  padding: 0 15px; /* Горизонтальні паддинги */
-}
 
 .team {
   background: var(--new-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .our-team-photos {
   display: flex;
   gap: 30px;
+  padding: 0;
+  margin: 0;
 }
 
 .our-team {
@@ -864,9 +917,12 @@ header {
   letter-spacing: 0.03em;
   color: var(--main-color);
 
-  padding-bottom: 50px;
-  padding-top: 94px;
-  margin: 0;
+  margin-bottom: 50px;
+  padding: 0;
+}
+.padding {
+  padding-top: 30px;
+  padding-left: 30px;
 }
 
 .design {
@@ -875,7 +931,6 @@ header {
 }
 
 .man-designer {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.1;
@@ -883,14 +938,12 @@ header {
   letter-spacing: 0.03em;
 
   color: var(--main-color);
-  margin-top: 30px;
+  margin-top: 0;
   margin-bottom: 10px;
   text-align: center;
 }
 
 .Product-Designer {
-  font-family: "Roboto";
-
   font-size: 16px;
   line-height: 1.1;
 
@@ -898,77 +951,75 @@ header {
 
   color: var(--text-color);
   text-align: center;
+  margin: 0;
 }
 
 .front {
   list-style: none;
 }
 .woman-frontend {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.1;
   letter-spacing: 0.03em;
   color: var(--main-color);
   margin-bottom: 10px;
-  margin-top: 30px;
+  margin-top: 0;
   text-align: center;
 }
 .Frontend-Developer {
-  font-family: "Roboto";
   font-size: 16px;
   line-height: 1.1;
   letter-spacing: 0.03em;
   color: var(--text-color);
   text-align: center;
+  margin: 0;
 }
 
 .marketolog {
   list-style: none;
 }
 .guys-marketolog {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.1;
   letter-spacing: 0.03em;
   color: var(--main-color);
 
-  margin-top: 30px;
+  margin-top: 0;
   margin-bottom: 10px;
   text-align: center;
 }
 .Marketing {
-  font-family: "Roboto";
   font-size: 16px;
   line-height: 1.1;
   letter-spacing: 0.03em;
   color: var(--text-color);
   text-align: center;
+  margin: 0;
 }
 
 .ui-design {
   list-style: none;
 }
 .guys-designer {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.1;
   letter-spacing: 0.03em;
   color: var(--main-color);
 
-  margin-top: 30px;
+  margin-top: 0;
   margin-bottom: 10px;
   text-align: center;
 }
 .ui-designer {
-  font-family: "Roboto";
   font-size: 16px;
   line-height: 1.1;
   letter-spacing: 0.03em;
   color: var(--text-color);
   text-align: center;
+  margin: 0;
 }
 
 /* visually hiden */
