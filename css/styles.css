@@ -12,7 +12,6 @@ body {
   color: var(--main-color);
   background-color: var(--action-color);
   font-size: 14px;
-  line-height: 1.7;
 }
 
 /* logotips */
@@ -35,6 +34,10 @@ body {
   color: var(--main-color);
 }
 /* logo-portfolio */
+.section-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .logo-portfolio {
   font-family: Raleway;
   font-weight: 700;
@@ -48,8 +51,13 @@ body {
 /* footers */
 .main-footer {
   background: var(--background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
-
+.footer-connect {
+  padding: 0;
+  margin: 0;
+}
 .logo-footer {
   text-decoration: none;
   font-family: Raleway;
@@ -65,7 +73,7 @@ body {
 }
 .clas-footer-loc {
   list-style: none;
-  margin-top: 12px;
+  margin-top: 28px;
   padding: 0;
 }
 .location {
@@ -77,6 +85,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.03em;
   text-decoration: none;
+  margin-top: 28px;
 }
 
 .location:hover {
@@ -90,10 +99,11 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
+  margin-bottom: 12px;
+  margin-top: 12px;
 }
 
 .footer-tel {
-  font-family: "Roboto";
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
@@ -115,9 +125,11 @@ body {
 }
 .footer-email {
   list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 12px;
 }
 .clas-footer-email {
-  font-family: "Roboto";
   font-style: normal;
 
   font-size: 14px;
@@ -357,6 +369,7 @@ body {
   text-transform: uppercase;
   color: var(--main-color);
   margin: 0;
+  margin-bottom: 10px;
   padding: 0;
 }
 .plants-li {
@@ -383,6 +396,7 @@ body {
 
   color: var(--main-color);
   margin: 0;
+  margin-bottom: 10px;
   padding: 0;
 }
 
@@ -503,6 +517,7 @@ header {
 
   list-style: none;
   margin: 0;
+  margin-bottom: 10px;
   padding: 0;
 }
 .text {
@@ -512,7 +527,6 @@ header {
   color: var(--text-color);
   list-style: none;
   margin-bottom: 0;
-  margin: 10px;
 }
 
 /* portfolio */
@@ -524,9 +538,9 @@ header {
   text-align: center;
 
   text-decoration: none;
-  margin-bottom: 32px;
-  margin-left: 350px;
-  margin-top: 94px;
+  padding-bottom: 50px;
+  margin-left: 250px;
+
   gap: 8px;
 }
 .all-buttom {
@@ -908,8 +922,6 @@ img {
 }
 
 .our-team {
-  font-family: "Roboto";
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
@@ -918,11 +930,12 @@ img {
   color: var(--main-color);
 
   margin-bottom: 50px;
+  margin-top: 0;
   padding: 0;
 }
 .padding {
   padding-top: 30px;
-  padding-left: 30px;
+  padding-bottom: 30px;
 }
 
 .design {
