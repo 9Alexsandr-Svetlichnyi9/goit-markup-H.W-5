@@ -71,9 +71,12 @@ body {
   padding: 0;
   margin: 0;
 }
+.footer-adress {
+  margin-top: 28px;
+}
 .clas-footer-loc {
   list-style: none;
-  margin-top: 28px;
+  margin-top: 0;
   padding: 0;
 }
 .location {
@@ -127,7 +130,6 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
-  margin-bottom: 12px;
 }
 .clas-footer-email {
   font-style: normal;
@@ -527,6 +529,7 @@ header {
   color: var(--text-color);
   list-style: none;
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 /* portfolio */
@@ -535,11 +538,12 @@ header {
   list-style: none;
   cursor: pointer;
   display: flex;
-  text-align: center;
+  justify-content: center;
 
   text-decoration: none;
-  padding-bottom: 50px;
-  margin-left: 250px;
+  margin-top: 0;
+  margin-bottom: 50px;
+  margin-left: 0;
 
   gap: 8px;
 }
@@ -671,44 +675,52 @@ img {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 30px;
   padding: 0;
   margin: 0;
 }
-.borders {
-  border: 1px solid #eeeeee;
-  margin-bottom: 30px;
+
+.padding-portfolio {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 0;
+
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none !important;
 }
 
 .technokryak {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-color);
+  list-style: none;
   padding: 0;
   margin: 0;
-  margin-left: 24px;
-  margin-top: 20px;
+  margin-left: 0;
+  margin-top: 0;
 }
 .web-port {
-  font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--text-color);
   text-decoration: none;
-  padding: 30px 0;
+
+  padding: 0;
   margin: 0;
-  margin-left: 24px;
+  margin-left: 0;
 }
 
 .basket-star {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -716,24 +728,21 @@ img {
   color: var(--main-color);
   padding: 0;
   margin: 0;
-  margin-top: 20px;
-  margin-left: 24px;
+  margin-top: 0;
+  margin-left: 0;
 }
 .port-design-basket {
-  font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--text-color);
-  padding: 30px 0;
+  padding: 0 0;
   margin: 0;
-  margin-left: 24px;
+  margin-left: 0;
 }
 
 .port-sea-food {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -741,24 +750,21 @@ img {
   color: var(--main-color);
   padding: 0;
   margin: 0;
-  margin-left: 24px;
-  margin-top: 20px;
+  margin-top: 0;
+  margin-left: 0;
 }
 .sea-food {
-  font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--text-color);
-  padding: 30px 0;
+  padding: 0;
   margin: 0;
-  margin-left: 24px;
+  margin-left: 0;
 }
 
 .port-prime {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -766,24 +772,21 @@ img {
   color: var(--main-color);
   padding: 0;
   margin: 0;
-  margin-left: 24px;
-  margin-top: 20px;
+  margin-top: 0;
+  margin-left: 0;
 }
 .prime-marketing {
-  font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--text-color);
-  padding: 30px 0;
+  padding: 0;
   margin: 0;
-  margin-left: 24px;
+  margin-left: 0;
 }
 
 .port-project-box {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -791,24 +794,21 @@ img {
   color: var(--main-color);
   padding: 0;
   margin: 0;
-  margin-left: 24px;
-  margin-top: 20px;
+  margin-top: 0;
+  margin-left: 0;
 }
 .applications-boxes {
-  font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--text-color);
-  padding: 30px 0;
+  padding: 0;
   margin: 0;
-  margin-left: 24px;
+  margin-left: 0;
 }
 
 .port-borders {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -816,24 +816,21 @@ img {
   color: var(--main-color);
   padding: 0;
   margin: 0;
-  margin-left: 24px;
-  margin-top: 20px;
+  margin-top: 0;
+  margin-left: 0;
 }
 .port-border-cite {
-  font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--text-color);
-  padding: 30px 0;
+  padding: 0;
   margin: 0;
-  margin-left: 24px;
+  margin-left: 0;
 }
 
 .port-book-limited {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -841,24 +838,21 @@ img {
   color: var(--main-color);
   padding: 0;
   margin: 0;
-  margin-left: 24px;
-  margin-top: 20px;
+  margin-top: 0;
+  margin-left: 0;
 }
 .port-application-books {
-  font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--text-color);
-  padding: 30px 0;
+  padding: 0;
   margin: 0;
-  margin-left: 24px;
+  margin-left: 0;
 }
 
 .port-project-lab {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -866,24 +860,21 @@ img {
   color: var(--main-color);
   padding: 0;
   margin: 0;
-  margin-left: 24px;
-  margin-top: 20px;
+  margin-top: 0;
+  margin-left: 0;
 }
 .port-marketing-lab {
-  font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--text-color);
-  padding: 30px 0;
+  padding: 0;
   margin: 0;
-  margin-left: 24px;
+  margin-left: 0;
 }
 
 .port-grow-business {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -891,19 +882,18 @@ img {
   color: var(--main-color);
   padding: 0;
   margin: 0;
-  margin-left: 24px;
-  margin-top: 20px;
+  margin-top: 0;
+  margin-left: 0;
 }
 .port-aplications-business {
-  font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--text-color);
-  padding: 30px 0;
+  padding: 0;
   margin: 0;
-  margin-left: 24px;
+  margin-left: 0;
 }
 /* footer-portfolio */
 
