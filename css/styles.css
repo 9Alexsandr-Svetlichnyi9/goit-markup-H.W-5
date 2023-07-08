@@ -543,7 +543,8 @@ header {
   text-decoration: none;
   margin-top: 0;
   margin-bottom: 50px;
-  margin-left: 0;
+
+  padding-left: 0;
 
   gap: 8px;
 }
@@ -684,15 +685,14 @@ img {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
-  padding-right: 0;
+  padding-right: 24px;
 
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
-  text-decoration: none;
 }
 a:link {
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 .technokryak {
@@ -706,6 +706,7 @@ a:link {
   margin: 0;
   margin-left: 0;
   margin-top: 0;
+  margin-bottom: 4px;
 }
 .web-port {
   font-weight: 400;
@@ -730,6 +731,7 @@ a:link {
   margin: 0;
   margin-top: 0;
   margin-left: 0;
+  margin-bottom: 4px;
 }
 .port-design-basket {
   font-weight: 400;
@@ -752,6 +754,7 @@ a:link {
   margin: 0;
   margin-top: 0;
   margin-left: 0;
+  margin-bottom: 4px;
 }
 .sea-food {
   font-weight: 400;
@@ -774,6 +777,7 @@ a:link {
   margin: 0;
   margin-top: 0;
   margin-left: 0;
+  margin-bottom: 4px;
 }
 .prime-marketing {
   font-weight: 400;
@@ -796,6 +800,7 @@ a:link {
   margin: 0;
   margin-top: 0;
   margin-left: 0;
+  margin-bottom: 4px;
 }
 .applications-boxes {
   font-weight: 400;
@@ -818,6 +823,7 @@ a:link {
   margin: 0;
   margin-top: 0;
   margin-left: 0;
+  margin-bottom: 4px;
 }
 .port-border-cite {
   font-weight: 400;
@@ -840,6 +846,7 @@ a:link {
   margin: 0;
   margin-top: 0;
   margin-left: 0;
+  margin-bottom: 4px;
 }
 .port-application-books {
   font-weight: 400;
@@ -862,6 +869,7 @@ a:link {
   margin: 0;
   margin-top: 0;
   margin-left: 0;
+  margin-bottom: 4px;
 }
 .port-marketing-lab {
   font-weight: 400;
@@ -884,6 +892,7 @@ a:link {
   margin: 0;
   margin-top: 0;
   margin-left: 0;
+  margin-bottom: 4px;
 }
 .port-aplications-business {
   font-weight: 400;
