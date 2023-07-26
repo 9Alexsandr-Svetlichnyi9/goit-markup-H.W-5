@@ -5,6 +5,8 @@
   --background-color: #2f303a;
   --text-color: #757575;
   --new-color: #f5f4fa;
+  --icon-hover-color: #2196f3;
+  --main-color-icon: #afb1b8;
 }
 
 body {
@@ -162,6 +164,14 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
 }
+.main-effect-bussines {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://i.postimg.cc/7hsmkbqQ/fon-Img-jpg.jpg);
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-color: #c4c4c4;
+}
 .our-bussines {
   color: var(--action-color);
   font-weight: 900;
@@ -283,6 +293,9 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
   display: block;
+}
+.link-cont:current {
+  color: var(--brand-color);
 }
 
 .link-cont:hover {
@@ -932,14 +945,46 @@ a:link {
   margin-top: 0;
   padding: 0;
 }
-.padding {
+.paddings {
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .design {
   list-style: none;
   width: 270px;
+}
+/* icons */
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 10px;
+}
+
+.social-list-link {
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+.social-icon {
+  fill: var(--main-color-icon);
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: #303030;
+}
+
+.social-list-link:hover .social-icon,
+.social-list-link:focus .social-icon {
+  fill: var(--icon-hover-color);
 }
 
 .man-designer {
@@ -964,6 +1009,7 @@ a:link {
   color: var(--text-color);
   text-align: center;
   margin: 0;
+  margin-bottom: 16px;
 }
 
 .front {
@@ -986,6 +1032,7 @@ a:link {
   color: var(--text-color);
   text-align: center;
   margin: 0;
+  margin-bottom: 16px;
 }
 
 .marketolog {
