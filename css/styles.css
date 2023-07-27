@@ -152,6 +152,18 @@ body {
 .clas-footer-email:focus {
   color: var(--brand-color);
 }
+/*footer-join*/
+.join{
+  margin-left: 70px;
+}
+.joins{
+  margin-bottom: 20px;
+    color: var(--action-color);
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
 
 /* background and button */
 
@@ -233,6 +245,7 @@ body {
   margin-bottom: 0;
   padding: 0;
 }
+
 .link-web {
   color: var(--brand-color);
 }
@@ -313,6 +326,11 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+.icon-letter {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 .link-mail:hover {
   color: var(--brand-color);
 }
@@ -327,6 +345,11 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+.icon-phone{
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 .link-tel:hover {
   color: var(--brand-color);
 }
@@ -348,9 +371,20 @@ body {
   margin-bottom: 0;
   padding-left: 0;
 }
+
 .working li {
   width: 270px;
 }
+.social-icon-antenna {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: var(--new-color);
+  border-radius: 4px;
+}
+
 .punkts {
   font-family: "Roboto";
   font-weight: 700;
@@ -373,6 +407,7 @@ body {
   color: var(--text-color);
   margin-bottom: 0;
   margin: 10px;
+  margin-left: 0;
 }
 
 .plants {
@@ -399,6 +434,7 @@ body {
   color: var(--text-color);
   margin-bottom: 0;
   margin: 10px;
+  margin-left: 0;
 }
 
 .modern-tech {
@@ -426,6 +462,7 @@ body {
   color: var(--text-color);
   margin-bottom: 0;
   margin: 10px;
+  margin-left: 0;
 }
 /* header doing before picture */
 /*container */
@@ -956,6 +993,48 @@ a:link {
   list-style: none;
   width: 270px;
 }
+/*clients*/
+.clients{
+  
+padding-top: 94px;
+padding-bottom: 94px;
+}
+.our-clients{
+  font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0.03em;
+text-align: center;
+margin-bottom: 50px;
+
+}
+/*icons-clients*/
+.icon-clients{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+ 
+  gap: 10px;
+  padding-left: 0;
+  padding-right: 0;
+      
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.list-clients{
+fill: var(--main-color-icon);
+border: 1px solid #AFB1B8;
+margin-bottom: 50px;
+padding: 0;
+}
+
+.list-clients:hover,
+.list-clients:focus{
+   fill: var(--brand-color);
+}
+
 /* icons */
 
 .social-list {
@@ -963,9 +1042,11 @@ a:link {
   justify-content: center;
   list-style: none;
   gap: 10px;
+  padding-left: 0;
 }
 
 .social-list-link {
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 44px;
@@ -1056,6 +1137,7 @@ a:link {
   color: var(--text-color);
   text-align: center;
   margin: 0;
+  margin-bottom: 16px;
 }
 
 .ui-design {
@@ -1079,6 +1161,7 @@ a:link {
   color: var(--text-color);
   text-align: center;
   margin: 0;
+  margin-bottom: 16px;
 }
 
 /* visually hiden */
