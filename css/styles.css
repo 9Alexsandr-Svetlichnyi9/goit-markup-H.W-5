@@ -153,9 +153,7 @@ body {
   color: var(--brand-color);
 }
 /*footer-join*/
-.join{
-  margin-left: 70px;
-}
+
 .joins{
   margin-bottom: 20px;
     color: var(--action-color);
@@ -163,6 +161,10 @@ body {
     line-height: normal;
     letter-spacing: 0.42px;
     text-transform: uppercase;
+
+    margin-left: 516px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 /* background and button */
@@ -371,6 +373,7 @@ body {
   margin-bottom: 0;
   padding-left: 0;
 }
+
 
 .working li {
   width: 270px;
@@ -995,10 +998,10 @@ a:link {
 }
 /*clients*/
 .clients{
-  
-padding-top: 94px;
+  padding-top: 94px;
 padding-bottom: 94px;
 }
+
 .our-clients{
   font-family: Roboto;
 font-size: 36px;
@@ -1008,26 +1011,35 @@ letter-spacing: 0.03em;
 text-align: center;
 margin-bottom: 50px;
 
+
 }
 /*icons-clients*/
 .icon-clients{
   list-style: none;
   display: flex;
   justify-content: center;
- 
+  align-items: center;
+  
+  
   gap: 10px;
-  padding-left: 0;
-  padding-right: 0;
-      
-    margin-top: 0;
-    margin-bottom: 0;
+  padding-left: 0; 
+}
+.logo-clients{
+  width: 170px;
+}
+.client-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .list-clients{
 fill: var(--main-color-icon);
 border: 1px solid #AFB1B8;
+border-radius: 4px;
 margin-bottom: 50px;
 padding: 0;
+
 }
 
 .list-clients:hover,
