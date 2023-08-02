@@ -99,7 +99,9 @@ body {
 .location:focus {
   color: var(--brand-color);
 }
-
+.footer{
+  display: flex;
+}
 .clas-footer-tel {
   list-style: none;
   margin: 0;
@@ -153,6 +155,9 @@ body {
   color: var(--brand-color);
 }
 /*footer-join*/
+.footer-icon{
+  margin-left: 70px;
+}
 
 .joins{
   margin-bottom: 20px;
@@ -162,9 +167,13 @@ body {
     letter-spacing: 0.42px;
     text-transform: uppercase;
 
-    margin-left: 516px;
-    padding-top: 0;
-    padding-bottom: 0;
+}
+.footer .social-icon{
+  fill: var(--action-color);
+
+}
+.footer .social-list-link{
+  background-color: rgba(255, 255, 255, 0.10);
 }
 
 /* background and button */
@@ -177,14 +186,24 @@ body {
   background: var(--background-color);
   padding-top: 200px;
   padding-bottom: 200px;
+
 }
 .main-effect-bussines {
+      max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(https://i.postimg.cc/7hsmkbqQ/fon-Img-jpg.jpg);
   background-repeat: no-repeat;
 
+ 
+ 
   background-size: cover;
   background-color: #c4c4c4;
+  background-position: center;
 }
 .our-bussines {
   color: var(--action-color);
@@ -279,7 +298,7 @@ body {
 }
 
 .link-port {
-  color: var(--main-color);
+  color: var(-main-color);
   text-decoration: none;
   letter-spacing: 0.02em;
   font-weight: 500;
@@ -309,7 +328,7 @@ body {
   padding-bottom: 32px;
   display: block;
 }
-.link-cont:current {
+.link-cont.current {
   color: var(--brand-color);
 }
 
@@ -327,16 +346,18 @@ body {
 
   padding-top: 32px;
   padding-bottom: 32px;
+   display: block;
 }
 .icon-letter {
   margin-right: 10px;
   fill: currentColor;
+
 }
 
 .link-mail:hover {
   color: var(--brand-color);
 }
-.link-mail :focus {
+.link-mail:focus {
   color: var(--brand-color);
 }
 .link-tel {
@@ -346,10 +367,12 @@ body {
   font-weight: 500;
   padding-top: 32px;
   padding-bottom: 32px;
+   display: block;
 }
 .icon-phone{
   margin-right: 10px;
   fill: currentColor;
+  
 }
 
 .link-tel:hover {
@@ -436,7 +459,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-color);
   margin-bottom: 0;
-  margin: 10px;
+  margin: 0;
   margin-left: 0;
 }
 
@@ -464,7 +487,7 @@ body {
 
   color: var(--text-color);
   margin-bottom: 0;
-  margin: 10px;
+  margin: 0;
   margin-left: 0;
 }
 /* header doing before picture */
@@ -477,6 +500,10 @@ header {
   margin: 0 auto; /* Центрує контейнер */
   padding: 0 15px; /* Горизонтальні паддинги */
 }
+container:footer{
+  display: flex;
+}
+
 .container-header {
   margin: 0 auto;
   width: 1200px;
@@ -990,11 +1017,21 @@ a:link {
   padding-bottom: 30px;
   padding-left: 32px;
   padding-right: 32px;
+
+  box-shadow: 0px 2px 1px 0px #00000033;
+
+box-shadow: 0px 1px 1px 0px #00000024;
+
+box-shadow: 0px 1px 3px 0px #0000001F;
+
 }
 
 .design {
   list-style: none;
   width: 270px;
+
+  
+  
 }
 /*clients*/
 .clients{
@@ -1042,9 +1079,11 @@ padding: 0;
 
 }
 
-.list-clients:hover,
-.list-clients:focus{
+.list-clients:hover{
    fill: var(--brand-color);
+}
+.list-clients:focus{
+  fill: var(--brand-color);
 }
 
 /* icons */
@@ -1064,20 +1103,21 @@ padding: 0;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: #ffffff;
+  
 }
 .social-icon {
   fill: var(--main-color-icon);
 }
 
+
 .social-list-link:hover,
-.social-list-link:focus {
-  background-color: #303030;
+.social-list-link:focus{
+  background-color: var(--brand-color);
 }
 
 .social-list-link:hover .social-icon,
-.social-list-link:focus .social-icon {
-  fill: var(--icon-hover-color);
+.social-list-link:focus .social-icon{
+  fill: var(--new-color);
 }
 
 .man-designer {
