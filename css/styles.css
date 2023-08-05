@@ -318,6 +318,9 @@ body {
   color: var(--brand-color);
 }
 
+.link-cont{
+  color: var(--main-color);
+}
 .link-cont {
   color: var(--main-color);
   text-decoration: none;
@@ -645,6 +648,13 @@ container:footer{
   letter-spacing: 0.03em;
 
   color: var(--main-color);
+
+  box-shadow: 0px 2px 2px 0px #0000001F;
+
+box-shadow: 0px 1px 2px 0px #00000014;
+
+box-shadow: 0px 3px 1px 0px #0000001A;
+
 }
 .all-buttom:hover {
   color: var(--action-color);
@@ -1057,6 +1067,7 @@ margin-bottom: 50px;
   display: flex;
     column-gap: 30px;
     list-style: none;
+    margin-bottom: 94px;
 }
 
 .client-link{
