@@ -7,6 +7,12 @@
   --new-color: #f5f4fa;
   --icon-hover-color: #2196f3;
   --main-color-icon: #afb1b8;
+  --color-shadow:  box-shadow: 0px 2px 2px 0px #0000001F;
+
+box-shadow: 0px 1px 2px 0px #00000014;
+
+box-shadow: 0px 3px 1px 0px #0000001A;
+
 }
 
 body {
@@ -101,6 +107,7 @@ body {
 }
 .footer{
   display: flex;
+  align-items: baseline;
 }
 .clas-footer-tel {
   list-style: none;
@@ -160,6 +167,7 @@ body {
 }
 
 .joins{
+  margin-top: 0;
   margin-bottom: 20px;
     color: var(--action-color);
     font-weight: 700;
@@ -630,6 +638,8 @@ container:footer{
   padding-left: 0;
 
   gap: 8px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .all-buttom {
   list-style: none;
@@ -637,6 +647,7 @@ container:footer{
   text-align: center;
   background: var(--new-color);
   border-radius: 4px;
+  border: none;
 
   font-family: inherit;
   font-style: normal;
@@ -649,62 +660,91 @@ container:footer{
 
   color: var(--main-color);
 
-  box-shadow: 0px 2px 2px 0px #0000001F;
+ 
+}
+.all-buttom:hover {
+  color: var(--action-color);
+  background: var(--brand-color);
+  
+   box-shadow: 0px 2px 2px 0px #0000001F;
 
 box-shadow: 0px 1px 2px 0px #00000014;
 
 box-shadow: 0px 3px 1px 0px #0000001A;
 
 }
-.all-buttom:hover {
-  color: var(--action-color);
-  background: var(--brand-color);
-}
 .all-buttom:focus {
   color: var(--action-color);
   background: var(--brand-color);
 }
+.all-buttom{
+      padding-left: 25px;
+    padding-right: 25px;
+     padding-top: 6px;
+    padding-bottom: 6px;
+}
 .web-buttom {
-  cursor: pointer;
-  font-style: normal;
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  text-align: center;
-  letter-spacing: 0.03em;
-
+ padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
+    font-weight: 500;
+    line-height: 1.63;
+    letter-spacing: 0.48px;
   color: var(--main-color);
-  background: var(--new-color);
-  border-radius: 4px;
+  
+  border: none;
+    border-radius: 4px;
+
+    font-size: 16px;
+    text-align: center;
+   
+    cursor: pointer;
 }
 
 .web-buttom:hover {
   color: var(--action-color);
   background: var(--brand-color);
+  
+   box-shadow: 0px 2px 2px 0px #0000001F;
+
+box-shadow: 0px 1px 2px 0px #00000014;
+
+box-shadow: 0px 3px 1px 0px #0000001A;
 }
 .web-buttom:focus {
   color: var(--action-color);
   background: var(--brand-color);
+  
 }
 
+
 .applications {
-  cursor: pointer;
-  background: var(--new-color);
-  border-radius: 4px;
-
-  font-weight: 500;
-  font-family: inherit;
-  font-size: 16px;
-  line-height: 1.6;
-  text-align: center;
-  letter-spacing: 0.03em;
-
+  padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
+    font-weight: 500;
+    line-height: 1.63;
+    letter-spacing: 0.48px;
   color: var(--main-color);
+  
+  border: none;
+    border-radius: 4px;
+
+    font-size: 16px;
+    text-align: center;
+   
+    cursor: pointer;
 }
 .applications:hover {
   color: var(--action-color);
   background: var(--brand-color);
+  box-shadow: 0px 2px 2px 0px #0000001F;
+
+box-shadow: 0px 1px 2px 0px #00000014;
+
+box-shadow: 0px 3px 1px 0px #0000001A;
 }
 .applications:focus {
   color: var(--action-color);
@@ -712,22 +752,32 @@ box-shadow: 0px 3px 1px 0px #0000001A;
 }
 
 .port-design {
-  cursor: pointer;
-  background: var(--new-color);
-  border-radius: 4px;
-
-  font-weight: 500;
-  font-family: inherit;
-  font-size: 16px;
-  line-height: 1.6;
-  text-align: center;
-  letter-spacing: 0.03em;
-
+ 
+  padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
+    font-weight: 500;
+    line-height: 1.63;
+    letter-spacing: 0.48px;
   color: var(--main-color);
+  
+  border: none;
+    border-radius: 4px;
+
+    font-size: 16px;
+    text-align: center;
+   
+    cursor: pointer;
 }
 .port-design:hover {
   color: var(--action-color);
   background: var(--brand-color);
+   box-shadow: 0px 2px 2px 0px #0000001F;
+
+box-shadow: 0px 1px 2px 0px #00000014;
+
+box-shadow: 0px 3px 1px 0px #0000001A;
 }
 .port-design:focus {
   color: var(--action-color);
@@ -735,22 +785,32 @@ box-shadow: 0px 3px 1px 0px #0000001A;
 }
 
 .port-marketing {
-  cursor: pointer;
-  background: var(--new-color);
-  border-radius: 4px;
 
-  font-weight: 500;
-  font-family: inherit;
-  font-size: 16px;
-  line-height: 1.6;
-  text-align: center;
-  letter-spacing: 0.03em;
-
+  padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
+    font-weight: 500;
+    line-height: 1.63;
+    letter-spacing: 0.48px;
   color: var(--main-color);
+  
+  border: none;
+    border-radius: 4px;
+
+    font-size: 16px;
+    text-align: center;
+   
+    cursor: pointer;
 }
 .port-marketing:hover {
   color: var(--action-color);
   background: var(--brand-color);
+   box-shadow: 0px 2px 2px 0px #0000001F;
+
+box-shadow: 0px 1px 2px 0px #00000014;
+
+box-shadow: 0px 3px 1px 0px #0000001A;
 }
 .port-marketing:focus {
   color: var(--action-color);
@@ -769,7 +829,12 @@ img {
   gap: 30px;
   padding: 0;
   margin: 0;
+
 }
+.borders-portfolio:hover{
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+
 
 .padding-portfolio {
   padding-top: 20px;
@@ -1045,10 +1110,11 @@ border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 /*clients*/
-.clients{
-  padding-top: 94px;
+.client{
+padding-top: 94px;
 padding-bottom: 94px;
 }
+
 
 .our-clients{
   font-family: Roboto;
@@ -1058,6 +1124,7 @@ line-height: 42px;
 letter-spacing: 0.03em;
 text-align: center;
 
+margin-top: 0;
 margin-bottom: 50px;
 
 
@@ -1067,7 +1134,9 @@ margin-bottom: 50px;
   display: flex;
     column-gap: 30px;
     list-style: none;
-    margin-bottom: 94px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 .client-link{
@@ -1104,6 +1173,8 @@ margin-bottom: 50px;
   list-style: none;
   gap: 10px;
   padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .social-list-link {
