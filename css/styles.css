@@ -316,6 +316,7 @@ body {
 
   display: block;
 }
+
 .link-port:hover {
   color: var(--brand-color);
 }
@@ -323,7 +324,7 @@ body {
   color: var(--brand-color);
 }
 .link-port.current {
-  color: #2196F3;
+  color: var(--main-color);
 
 }
 
@@ -834,10 +835,13 @@ img {
 .images-border-portfolio{
   display: inline-block;
 }
-.images-border-portfolio:hover{
+.images-border-portfolio:hover,
+.images-border-portfolio:focus {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
-
+/*.images-border-portfolio:focus{
+   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}*/
 
 .padding-portfolio {
   padding-top: 20px;
